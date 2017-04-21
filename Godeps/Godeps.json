@@ -1,0 +1,47 @@
+{
+	"ImportPath": "ckcaptcha",
+	"GoVersion": "go1.8",
+	"Deps": [
+		{
+			"ImportPath": "github.com/cihub/seelog",
+			"Comment": "go1.1",
+			"Rev": "791566c9a7e3d7342f2fc8bc017e1032c8df0e8f"
+		},
+		{
+			"ImportPath": "github.com/dchest/captcha",
+			"Comment": "weekly.2012-03-04-18-g9e95214",
+			"Rev": "9e952142169c3cd6268c6482a3a61c121536aca2"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin",
+			"Comment": "v1.0-4-gbb159f9",
+			"Rev": "bb159f9260a262fccbdbd6f37f8575d1e7e6aaa0"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "3c84672111d91bb5ac31719e112f9f7126a0e26e"
+		},
+		{
+			"ImportPath": "github.com/manucorporat/sse",
+			"Rev": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "4599ae7937fce9b670ce32b8ad32bbb7ae726b3e"
+		},
+		{
+			"ImportPath": "gopkg.in/go-playground/validator.v8",
+			"Comment": "v8.17.1",
+			"Rev": "014792cf3e266caff1e916876be12282b33059e0"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v5",
+			"Comment": "v5.2.3-4-g2fe9c5c",
+			"Rev": "2fe9c5cc0a8da9faeba3a45511a4ece8f7e37dc2"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "f7716cbe52baa25d2e9b0d0da546fcf909fc16b4"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+<seelog>
+    <outputs formatid="main">
+        <filter levels="warn" formatid="main">
+            <file path="/app/log/main.log"/>
+        </filter>
+        <filter levels="error" formatid="err">
+            <file path="/app/log/error.log"/>
+        </filter>
+    </outputs>
+    <formats>
+        <format id="main" format="%Date(2006 Jan 02/15:04:05 MST) [%Level] %Msg%n"/>
+        <format id="err" format="%Date(2006 Jan 02/15:04:05 MST) [%Level] [%RelFile:%Line %Func] %Msg%n"/>
+    </formats>
+</seelog>

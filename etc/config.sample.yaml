@@ -1,0 +1,14 @@
+dev_mode: true
+
+http_bind: "127.0.0.1:10083"
+
+log_path: "./logger.xml"
+
+redis: "127.0.0.1:6379"
+db: 0
+
+code:
+  len: 6
+  expire: 5
+  width: 240
+  height: 80
